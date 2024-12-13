@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourNameLinks</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 20px;
+            padding: 40px 30px;
+            width: 90%;
+            max-width: 450px;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            width: 120px; /* Adjust logo size as needed */
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            width: 100%;
+            max-width: 300px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-align: center;
+        }
+        .social-links a:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+        }
+        .social-links a:active {
+            transform: translateY(0);
+        }
+        .social-links a.youtube {
+            background-color: #FF0000;
+        }
+        .social-links a.youtube:hover {
+            background-color: #cc0000;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            .logo {
+                width: 100px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .social-links a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://assets.onecompiler.app/42z3m87ht/432wmgjtn/channels4_profile%20(1).jpg" alt="Logo" class="logo"> <!-- Replace with your logo file -->
+        <h1>Topic History</h1>
+        <p>Connect with me on my social media platforms</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/yourhandle" target="_blank">Instagram</a>
+            <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/yourhandle" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/yourhandle" target="_blank">LinkedIn</a>
+            <a href="https://youtube.com/@topichistory-kr6md?si=48fbgMqzfvxuTuC-" target="_blank" class="youtube">YouTube</a>
+        </div>
+    </div>
+</body>
+</html>
